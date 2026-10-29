@@ -1,0 +1,12 @@
+pandas
+scikit-learn
+duckdb
+fastapi
+uvicorn
+httpx
+plotly
+kaleido
+scipy
+matplotlib
+joblib
+pytest
