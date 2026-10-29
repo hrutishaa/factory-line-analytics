@@ -1,0 +1,303 @@
+{
+  "pbar": 0.0339,
+  "status": [
+    {
+      "shift_id": 1,
+      "status": "green",
+      "failure_rate": 0.032,
+      "yield": 0.968,
+      "oee": 0.4442099396191361,
+      "z": -0.23476195255881838
+    },
+    {
+      "shift_id": 2,
+      "status": "green",
+      "failure_rate": 0.014,
+      "yield": 0.986,
+      "oee": 0.5829850388988629,
+      "z": -2.4588225557476258
+    },
+    {
+      "shift_id": 3,
+      "status": "green",
+      "failure_rate": 0.038,
+      "yield": 0.962,
+      "oee": 0.40239458086367486,
+      "z": 0.5065915818374505
+    },
+    {
+      "shift_id": 4,
+      "status": "green",
+      "failure_rate": 0.02,
+      "yield": 0.98,
+      "oee": 0.5407274762171237,
+      "z": -1.7174690213513564
+    },
+    {
+      "shift_id": 5,
+      "status": "green",
+      "failure_rate": 0.024,
+      "yield": 0.976,
+      "oee": 0.507212598425197,
+      "z": -1.2232333317538437
+    },
+    {
+      "shift_id": 6,
+      "status": "green",
+      "failure_rate": 0.02,
+      "yield": 0.98,
+      "oee": 0.5715702479338843,
+      "z": -1.7174690213513564
+    },
+    {
+      "shift_id": 7,
+      "status": "green",
+      "failure_rate": 0.018,
+      "yield": 0.982,
+      "oee": 0.5556792668957616,
+      "z": -1.964586866150113
+    },
+    {
+      "shift_id": 8,
+      "status": "green",
+      "failure_rate": 0.036,
+      "yield": 0.964,
+      "oee": 0.43951638209506233,
+      "z": 0.25947373703869386
+    },
+    {
+      "shift_id": 9,
+      "status": "red",
+      "failure_rate": 0.152,
+      "yield": 0.848,
+      "oee": 0.20375097276264592,
+      "z": 14.592308735366561
+    },
+    {
+      "shift_id": 10,
+      "status": "red",
+      "failure_rate": 0.116,
+      "yield": 0.884,
+      "oee": 0.26330780826047634,
+      "z": 10.144187528988947
+    },
+    {
+      "shift_id": 11,
+      "status": "green",
+      "failure_rate": 0.024,
+      "yield": 0.976,
+      "oee": 0.48022310756972103,
+      "z": -1.2232333317538437
+    },
+    {
+      "shift_id": 12,
+      "status": "green",
+      "failure_rate": 0.016,
+      "yield": 0.984,
+      "oee": 0.5582578796561605,
+      "z": -2.2117047109488692
+    },
+    {
+      "shift_id": 13,
+      "status": "green",
+      "failure_rate": 0.026,
+      "yield": 0.974,
+      "oee": 0.5102396606574762,
+      "z": -0.9761154869550877
+    },
+    {
+      "shift_id": 14,
+      "status": "green",
+      "failure_rate": 0.02,
+      "yield": 0.98,
+      "oee": 0.5188853161843516,
+      "z": -1.7174690213513564
+    },
+    {
+      "shift_id": 15,
+      "status": "green",
+      "failure_rate": 0.012,
+      "yield": 0.988,
+      "oee": 0.5926800242865816,
+      "z": -2.705940400546382
+    },
+    {
+      "shift_id": 16,
+      "status": "green",
+      "failure_rate": 0.032,
+      "yield": 0.968,
+      "oee": 0.46471525753158405,
+      "z": -0.23476195255881838
+    },
+    {
+      "shift_id": 17,
+      "status": "green",
+      "failure_rate": 0.02,
+      "yield": 0.98,
+      "oee": 0.5488888888888889,
+      "z": -1.7174690213513564
+    },
+    {
+      "shift_id": 18,
+      "status": "amber",
+      "failure_rate": 0.014,
+      "yield": 0.986,
+      "oee": 0.5896900726392252,
+      "z": -2.4588225557476258
+    },
+    {
+      "shift_id": 19,
+      "status": "amber",
+      "failure_rate": 0.018,
+      "yield": 0.982,
+      "oee": 0.5619570516540916,
+      "z": -1.964586866150113
+    },
+    {
+      "shift_id": 20,
+      "status": "amber",
+      "failure_rate": 0.026,
+      "yield": 0.974,
+      "oee": 0.49349333333333334,
+      "z": -0.9761154869550877
+    }
+  ],
+  "alerts": [
+    {
+      "shift_id": 9,
+      "rules": [
+        "WE1: point beyond 3\u03c3"
+      ],
+      "failure_rate": 0.152,
+      "ucl": 0.05817991392076998,
+      "yield": 0.848,
+      "oee": 0.20375097276264592,
+      "by_mode": {
+        "HDF": 61,
+        "PWF": 10,
+        "OSF": 6,
+        "TWF": 4
+      },
+      "mode_lift_vs_avg_shift": {
+        "HDF": 10.61,
+        "PWF": 2.11,
+        "OSF": 1.22,
+        "TWF": 1.74
+      },
+      "severity": "red",
+      "by_type": {
+        "H": 4,
+        "L": 55,
+        "M": 22
+      },
+      "top_cause": "HDF"
+    },
+    {
+      "shift_id": 10,
+      "rules": [
+        "WE1: point beyond 3\u03c3",
+        "WE2: 2 of 3 beyond +2\u03c3"
+      ],
+      "failure_rate": 0.116,
+      "ucl": 0.05817991392076998,
+      "yield": 0.884,
+      "oee": 0.26330780826047634,
+      "by_mode": {
+        "HDF": 47,
+        "OSF": 6,
+        "PWF": 5,
+        "TWF": 2
+      },
+      "mode_lift_vs_avg_shift": {
+        "HDF": 8.17,
+        "OSF": 1.22,
+        "PWF": 1.05,
+        "TWF": 0.87
+      },
+      "severity": "red",
+      "by_type": {
+        "H": 3,
+        "L": 43,
+        "M": 14
+      },
+      "top_cause": "HDF"
+    },
+    {
+      "shift_id": 18,
+      "rules": [
+        "WE4: 8 in a row below center (improvement)"
+      ],
+      "failure_rate": 0.014,
+      "ucl": 0.05817991392076998,
+      "yield": 0.986,
+      "oee": 0.5896900726392252,
+      "by_mode": {
+        "OSF": 3,
+        "TWF": 3,
+        "PWF": 2
+      },
+      "mode_lift_vs_avg_shift": {
+        "OSF": 0.61,
+        "TWF": 1.3,
+        "PWF": 0.42
+      },
+      "severity": "amber",
+      "by_type": {
+        "L": 3,
+        "M": 5
+      },
+      "top_cause": "OSF"
+    },
+    {
+      "shift_id": 19,
+      "rules": [
+        "WE4: 8 in a row below center (improvement)"
+      ],
+      "failure_rate": 0.018,
+      "ucl": 0.05817991392076998,
+      "yield": 0.982,
+      "oee": 0.5619570516540916,
+      "by_mode": {
+        "OSF": 5,
+        "PWF": 2,
+        "TWF": 2
+      },
+      "mode_lift_vs_avg_shift": {
+        "OSF": 1.02,
+        "PWF": 0.42,
+        "TWF": 0.87
+      },
+      "severity": "amber",
+      "by_type": {
+        "L": 8,
+        "M": 1
+      },
+      "top_cause": "OSF"
+    },
+    {
+      "shift_id": 20,
+      "rules": [
+        "WE4: 8 in a row below center (improvement)"
+      ],
+      "failure_rate": 0.026,
+      "ucl": 0.05817991392076998,
+      "yield": 0.974,
+      "oee": 0.49349333333333334,
+      "by_mode": {
+        "OSF": 9,
+        "PWF": 3,
+        "TWF": 2
+      },
+      "mode_lift_vs_avg_shift": {
+        "OSF": 1.84,
+        "PWF": 0.63,
+        "TWF": 0.87
+      },
+      "severity": "amber",
+      "by_type": {
+        "L": 14
+      },
+      "top_cause": "OSF"
+    }
+  ]
+}

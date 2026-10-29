@@ -30,3 +30,16 @@ def test_api_predict():
     a, b = c.post("/predict", json=ok).json(), c.post("/predict", json=bad).json()
     assert a["failure_probability"] < b["failure_probability"]
     assert c.post("/predict", json=dict(ok, rpm=-1)).status_code == 422
+
+def test_we_rules():
+    import numpy as np
+    from fla.alerts import we_rules
+    z = np.array([0, 0, 4, 0] + [-1]*8)
+    h = we_rules(z, 0, np.ones(len(z)))
+    assert "WE1" in h[2][0] and any("below center" in r for r in h[11])
+
+def test_line_health_flags_heat_spike():
+    from fla.alerts import run
+    out = run()
+    red = [a for a in out["alerts"] if a["severity"] == "red"]
+    assert [a["shift_id"] for a in red] == [9, 10] and all(a["top_cause"] == "HDF" for a in red)

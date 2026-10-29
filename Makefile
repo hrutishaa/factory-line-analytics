@@ -12,3 +12,8 @@ test:
 serve:
 	cd src && ../$(PY) -m uvicorn fla.api:app --port 8000
 .PHONY: all setup run test serve
+screenshot:
+	google-chrome --headless=new --no-sandbox --hide-scrollbars --window-size=1440,1520 --virtual-time-budget=15000 --screenshot=reports/figures/dashboard.png file://$(CURDIR)/reports/dashboard.html
+handoff:
+	cd src && ../$(PY) -m fla.alerts && cat ../reports/shift_handoff.md
+.PHONY: screenshot handoff
